@@ -12,7 +12,7 @@ function App() {
    <BrowserRouter>
     <Routes>
       <Route path="/" element={<Login/>} />
-      <Route path="/OAuth" element={<OAuthRedirect/>} />
+      <Route path="/oauth2/redirect" element={<OAuthRedirect/>} />
       <Route path="/dashboard" element={<Dashboard/>} />
     </Routes>
    </BrowserRouter>
